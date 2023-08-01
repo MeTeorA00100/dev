@@ -2,55 +2,40 @@
 //  ----------------------------- CSS Pages: Главная ------------------------------
 //  ------------------------------------------------------------------------------
 
-.navigation{
+.inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 118px;
     &__left{
-        margin-right: 326px;
-    }
-    &__list{
-        display: flex;
-    }
-    &__item{
-        margin-right: 45px;
-    }
-    &__btn:hover {
-            -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-          }
-    
-    &__link{
-        color: #212121;
-        text-align: center;
-        font-size: 25px;
-        font-weight: 400;
-        letter-spacing: 1.375px;
-        &-but{
-            color:white;
-            font-weight: 600;
-        }
+        margin-right: 66px;
     }
     &__title{
+        max-width: 580px;
         color: #002265;
-        text-align: center;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: 5.125px;
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: 0.25px;
+        line-height: normal;
+        margin-bottom: 32px;
         &-sub{
-            color: #14279B;
-            font-size: 25px;
+            color: #002265;
+            font-size: 35px;
             font-weight: 400;
-            letter-spacing: 5.125px;
+            letter-spacing: 0.175px;
+            line-height: normal;
         }
     }
-    &__btn{
-        color: white;
-        background-color: #608AF5;
-        border-radius: 10px;
-        padding: 10px;
-        margin-top: -10px;
+    &__text{
+        max-width: 600px;
+        color: #082032;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.345px;
+    }
+    &__img{
+        width: 501px;
+        height: 467px;
     }
 }
